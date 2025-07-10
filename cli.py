@@ -74,6 +74,8 @@ def scrape_data(pages: int, skip_scraping: bool, use_selenium: bool = False, hea
     if offline_mode and html_dir:
         os.makedirs(html_dir, exist_ok=True)
     
+    chromedriver_path = os.getenv("CHROME_DRIVER")    
+    
     # Scrape books
     print("\nScraping books data...")
     if use_selenium:
