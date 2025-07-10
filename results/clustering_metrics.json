@@ -1,0 +1,18 @@
+{
+  "books": {
+    "silhouette_score": 0.004111616610585493,
+    "cluster_distribution": {
+      "2": 1,
+      "0": 2,
+      "1": 1
+    }
+  },
+  "quotes": {
+    "silhouette_score": 0.007105436389059851,
+    "cluster_distribution": {
+      "0": 28,
+      "2": 6,
+      "1": 6
+    }
+  }
+}
