@@ -1,6 +1,6 @@
 {
   "books": {
-    "silhouette_score": 0.004111616610585493,
+    "silhouette_score": 0.0038873739438324505,
     "cluster_distribution": {
       "2": 1,
       "0": 2,
